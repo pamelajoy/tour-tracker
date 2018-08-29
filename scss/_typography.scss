@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar:400,700|Work+Sans:300,400,500,800');
+
+.h1{
+  font-family: 'Eczar', serif; 
+  font-size: 3.5rem; 
+  font-weight: 700; 
+  letter-spacing: .1rem; 
+  line-height: 4rem;
+  text-transform: capitalize; 
+}
+.h2{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300; 
+  text-transform: capitalize; 
+}
+.p, .li{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;  
+}
+.li{
+  list-style: none;
+}
+.link{
+  color:inherit; 
+  text-decoration: none;
+
+  &:hover, &:active, &:focus{
+    color: saturate($lucky, 20%);
+    text-decoration: none;
+  }
+}

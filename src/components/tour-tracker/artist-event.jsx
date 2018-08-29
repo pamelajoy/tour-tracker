@@ -8,7 +8,7 @@ const ArtistEvent = (props) => {
       lng: props.venueLng,
     });
   };
-
+//setState to run mapPin function
   return (
     <div className="artist-event">
       <p>

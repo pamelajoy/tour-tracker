@@ -1,7 +1,0 @@
-@mixin test {
-  color: pink;
-}
-
-p {
-  @include test;
-}

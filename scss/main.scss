@@ -1,0 +1,15 @@
+// primary Sass file
+
+@import "_colors";
+@import "_typography";
+@import "_buttons";
+@import "_formcontrols";
+
+.ul{
+  padding: 0;
+}
+
+.main-content, .sidebar{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}

@@ -1,0 +1,12 @@
+.btn-primary{
+  background-color: $cornflower-blue;
+  border-color: $cornflower-blue;
+  font-family: "Work Sans", sans-serif;
+
+  &:hover, &:active, &:focus{
+    background-color: saturate($cornflower-blue, 20%);
+    border-color: saturate($cornflower-blue, 20%);
+    box-shadow: none;
+    outline: none;
+  }
+}

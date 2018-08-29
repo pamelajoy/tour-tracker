@@ -1,0 +1,22 @@
+$royal-blue: #4756ED; // bright blue
+$edgewater: #C8E3D6; // light blue
+$lucky: #BDAF1D; // gold
+$porche: #EDB871; // light orange
+$cornflower-blue: #7584ED; //purplish blue
+
+.bright-blue-bg{
+  background: $royal-blue;
+}
+.light-orange-bg{
+  background: $porche;
+}
+
+.light-blue-text{
+  color: $edgewater;
+}
+.purplish-blue-text{
+  color: $cornflower-blue;
+}
+.gold-text{
+  color: $lucky;
+}
